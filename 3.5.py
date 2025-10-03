@@ -31,9 +31,9 @@ def bruh(x,y):
     return x
     return y
 bruh(a,b)
-for g in range(b):
-        for i in range(a):
-            f[i][g] *= a
+for i in range(a):
+        for g in range(b):
+            f[i][g] *= i
 for i in f:
     for g in i:
         print(f"{g:3d}", end=" ")
