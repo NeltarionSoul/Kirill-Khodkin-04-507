@@ -1,11 +1,14 @@
 import numpy as np
-import random
 def kukold(x,y):
     if len(x) != len(y):
-        print('idi n***i')
+        print('peredelivay')
     else:
-        a = len(x)*sum(x*) - sum(x)*sum(y)
-    print(a)
-r = np.random
-t = np.random
+        zxc = (len(x)*sum(x*y) - sum(x)*sum(y)) / (len(x)*sum(x**2) - sum(x)**2)
+        print(zxc)
+        qwe = sum(y) / len(y) - zxc * sum(x) / len(x)
+        print(qwe)
+z = list(map(int, input().split()))
+c = list(map(int, input().split()))
+r = np.array(z)
+t = np.array(c)
 kukold(r,t)
