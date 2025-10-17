@@ -3,6 +3,7 @@ import random
 a, b = random.randint(4, 10), random.randint(4, 10)
 f = np.empty((a, b), dtype="object")
 print(a, b)
+print('\n')
 def bruh(x,y):
     c = 1
     top = 0
@@ -31,6 +32,11 @@ def bruh(x,y):
     return x
     return y
 bruh(a,b)
+for i in f:
+    for g in i:
+        print(f"{g:3d}", end=" ")
+    print()
+print('\n')
 for i in range(a):
         for g in range(b):
             f[i][g] *= i
